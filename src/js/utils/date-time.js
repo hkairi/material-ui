@@ -32,18 +32,18 @@ module.exports = {
   getFullMonth: function(d) {
     var month = d.getMonth();
     switch (month) {
-      case 0: return 'January';
-      case 1: return 'February';
-      case 2: return 'March';
-      case 3: return 'April';
-      case 4: return 'May';
-      case 5: return 'June';
-      case 6: return 'July';
-      case 7: return 'August';
-      case 8: return 'September';
-      case 9: return 'October';
-      case 10: return 'November';
-      case 11: return 'December';
+      case 0:  return 'Janvier';
+      case 1:  return 'Février';
+      case 2:  return 'Mars';
+      case 3:  return 'Avril';
+      case 4:  return 'Mai';
+      case 5:  return 'Juin';
+      case 6:  return 'Juillet';
+      case 7:  return 'Août';
+      case 8:  return 'Septembre';
+      case 9:  return 'Octobre';
+      case 10: return 'Novembre';
+      case 11: return 'Décembre';
     }
   },
 
@@ -53,28 +53,28 @@ module.exports = {
       case 0: return 'Jan';
       case 1: return 'Feb';
       case 2: return 'Mar';
-      case 3: return 'Apr';
-      case 4: return 'May';
-      case 5: return 'Jun';
-      case 6: return 'Jul';
-      case 7: return 'Aug';
+      case 3: return 'Avr';
+      case 4: return 'Mai';
+      case 5: return 'Jui';
+      case 6: return 'Jui';
+      case 7: return 'Aou';
       case 8: return 'Sep';
       case 9: return 'Oct';
       case 10: return 'Nov';
-      case 11: return 'Dec';
+      case 11: return 'Déc';
     }
   },
 
   getDayOfWeek: function(d) {
     var dow = d.getDay();
     switch (dow) {
-      case 0: return 'Sunday';
-      case 1: return 'Monday';
-      case 2: return 'Tuesday';
-      case 3: return 'Wednesday';
-      case 4: return 'Thursday';
-      case 5: return 'Friday';
-      case 6: return 'Saturday';
+      case 0: return 'Dimanche';
+      case 1: return 'Lundi';
+      case 2: return 'Mardi';
+      case 3: return 'Mercredi';
+      case 4: return 'Jeudi';
+      case 5: return 'Vendredi';
+      case 6: return 'Samedi';
     }
   },
 
