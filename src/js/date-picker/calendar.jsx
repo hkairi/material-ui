@@ -68,12 +68,12 @@ var Calendar = React.createClass({
             onRightTouchTap={this._handleRightTouchTap} />
 
           <ul className="mui-date-picker-calendar-week-title">
-            <li className="mui-date-picker-calendar-week-title-day">S</li>
+            <li className="mui-date-picker-calendar-week-title-day">D</li>
+            <li className="mui-date-picker-calendar-week-title-day">L</li>
             <li className="mui-date-picker-calendar-week-title-day">M</li>
-            <li className="mui-date-picker-calendar-week-title-day">T</li>
-            <li className="mui-date-picker-calendar-week-title-day">W</li>
-            <li className="mui-date-picker-calendar-week-title-day">T</li>
-            <li className="mui-date-picker-calendar-week-title-day">F</li>
+            <li className="mui-date-picker-calendar-week-title-day">M</li>
+            <li className="mui-date-picker-calendar-week-title-day">J</li>
+            <li className="mui-date-picker-calendar-week-title-day">V</li>
             <li className="mui-date-picker-calendar-week-title-day">S</li>
           </ul>
 
@@ -186,7 +186,7 @@ var Calendar = React.createClass({
 
       }
 
-    } 
+    }
   }
 
 });
